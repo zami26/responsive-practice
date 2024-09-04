@@ -1,0 +1,93 @@
+body{
+    background-image: url("../image/bg-image.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.color{
+  color: white;
+}
+.text-position{
+    text-align: center;
+}
+h1{
+    font-size: 62px;
+}
+.text{
+    font-size: 28px;
+}
+.no-gap{
+    margin: 0px;
+}
+
+form{
+    background-color: #CDD5E0;
+    width: 60%;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 20px;
+}
+.font{
+    font-weight: 800;
+}
+.input{
+    width: 45%;
+}
+.input-box{
+    padding: 13px 10px;
+    border: none;
+    border-radius: 8px;
+    width: 97%;
+}
+.row{
+    display: flex;
+justify-content:  space-between;
+margin-bottom: 15px;
+}
+.message{
+    width: 99%;
+    border: none;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+.btn{
+    width: 100%;
+    padding: 13px 10px;
+    border: none;
+    border-radius: 8px;
+    color: #4036A9;
+    font-weight: 800;
+}
+@media screen and (max-width:1280px) {
+    .input-box{
+        /* width: 350px; */
+    }
+}
+@media screen and (max-width:1024px) and (min-width:640.5px) {
+    form{
+        background-color: #CDD5E0;
+        width: 85%;
+        margin: auto;
+        padding: 50px;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width:640px ) {
+    form{
+        background-color: #CDD5E0;
+        width: 80%;
+        margin: auto;
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .input{
+        width: 100%;
+    }
+
+}
